@@ -1,0 +1,96 @@
+body {
+    background: rgb(197, 160, 166);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(197, 160, 166);;
+    color: red;
+    padding: 26px 0;
+}
+
+a {
+    color: pink ;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: red;
+}
+
+nav {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: pink;
+    text-transform: uppercase;
+}
+
+p:hover {
+    color: rgb(243, 12, 51);
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid red;
+}
+
+.li {
+    font-family: Arial;
+    font-size: 25px;
+    color: rgb(207, 95, 95);
+    text-align: center;
+    font-weight: bold;
+}
+
+.k1 {
+    font-size: 36px;
+    padding: 10px;
+}
+
+.k2 {
+    font-size: 20px;
+    padding: 22px;
+    font-weight: 400;
+}
+
+.k3 {
+    display: inline-block;
+    padding: 12px 45px;
+    border: 1px solid red;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: pink;
+    color: red;
+}
+
+.k3:hover {
+    background-color: palevioletred;
+    transition: all 0.5;
+}
+
+.imagen {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 120px 0px 20px;
+}
